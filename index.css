@@ -25,7 +25,7 @@ left: 20px;
 .content{
     background-image: url(bg.png);
     height: 99vh;
-    width:100vw;
+    width:100%;
     background-position: center;
     padding-top: 50px;
     /* filter: blur(0px); */
@@ -43,4 +43,16 @@ left: 20px;
     top: 30%;
     right: 15%;
 
+}
+
+.flex img{
+   padding: 40px;
+    width: 100%;
+    
+}
+
+
+
+.card-deck{
+    margin: 10px;
 }
