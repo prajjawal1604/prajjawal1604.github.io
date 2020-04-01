@@ -10,6 +10,11 @@
 .nav-item{
     
 }
+
+.navbar-brand img{
+position: absolute;
+left: 20px;
+}
 .nav-item:hover{
     color: #495057;
     background-color: #fff;
