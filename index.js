@@ -17,3 +17,14 @@ $(window).scroll(function(){
 $(window).scroll(function(){
   $(".content").css("opacity", 1 - $(window).scrollTop() / 800);
 });
+
+// $(window).scroll(function(){
+//  if($(window).scrollTop()>814){
+//    $("#sidebar").css("display",none);
+//    console("hi");
+//   //$(".sidebar").css("top", 1000);
+//   // alert("stop"); 
+//  }
+// });
+
+
