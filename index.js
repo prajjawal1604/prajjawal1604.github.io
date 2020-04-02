@@ -28,3 +28,14 @@ $(window).scroll(function(){
 // });
 
 
+var wrap = $(".sidebar");
+
+wrap.on("scroll", function(e) {
+    
+  if (this.scrollTop >814) {
+    wrap.addId("fix-search");
+  } else {
+    wrap.removeId("fix-search");
+  }
+  
+});
