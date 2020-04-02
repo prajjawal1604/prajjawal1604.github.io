@@ -1,4 +1,4 @@
-.nav{
+#navbar{
     margin-top: 10px;
     
     position: fixed;
@@ -6,6 +6,8 @@
     background-color: blanchedalmond;
     opacity: 85%;
     z-index: 9999999;
+    transition: top 0.5s;
+    top: 0px;
 }
 .nav-item{
     
@@ -45,14 +47,51 @@ left: 20px;
 
 }
 
+
+
+
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+    top: 814px;
+    left: 0;
+    background-color: #110;
+    overflow-x: hidden;
+    padding-top: 16px;
+    margin-right: 20px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 20px 0 60px;
+  }
+
+
+
+  
+
 .flex img{
-   padding: 40px;
+    padding: 30px;
+   height: 160px;
     width: 100%;
+
     
 }
-
-
-
 .card-deck{
     margin: 10px;
 }
