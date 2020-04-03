@@ -64,6 +64,7 @@ left: 20px;
     padding-top: 16px;
     margin-right: 20px;
     padding-top: 70px;
+    opacity: 0;
   
   }
   
@@ -98,8 +99,8 @@ left: 20px;
     
 }
 
-.card{
-  
+.card:hover{
+   
 }
 .card-deck{
     margin:50px 100px;
