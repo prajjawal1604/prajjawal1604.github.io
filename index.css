@@ -1,6 +1,5 @@
 #navbar{
-    margin-top: 10px;
-    
+    margin-top: 10px;    
     position: fixed;
     width: 100%; 
     background-color: blanchedalmond;
@@ -9,9 +8,7 @@
     transition: top 0.5s;
     top: 0px;
 }
-.nav-item{
-    
-}
+
 
 .navbar-brand img{
 position: absolute;
@@ -33,6 +30,7 @@ left: 20px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
     opacity: 1;
     
 }
@@ -58,14 +56,14 @@ left: 20px;
     height: 100%;
     width: 200px;
     position: fixed;
-    z-index: 1;
-    top: 0 px;
-    left: 40px;
+    top: 0;
     background-color: #110;
     overflow-x: hidden;
     padding-top: 16px;
     margin-right: 20px;
-    display: none;
+    padding-top: 70px;
+    transition: left 0.5s;
+  
   }
   
   .sidebar a {
