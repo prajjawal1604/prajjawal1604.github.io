@@ -54,22 +54,24 @@ left: 20px;
 
 .sidebar {
     height: 100%;
-    width: 200px;
+    width: 250px;
     position: fixed;
+    
     top: 0;
+    left: 40px;
     background-color: #110;
     overflow-x: hidden;
     padding-top: 16px;
     margin-right: 20px;
     padding-top: 70px;
-    transition: left 0.5s;
   
   }
   
   .sidebar a {
-    padding: 6px 8px 6px 16px;
+    padding: 10px 0px 10px 20px;
     text-decoration: none;
-    font-size: 20px;
+    align-content: center;
+    font-size: 22px;
     color: #818181;
     display: block;
   }
@@ -88,9 +90,9 @@ left: 20px;
   
 
 .flex img{
-    padding: 30px;
+    padding: 30px 0px 30px 130px;
    height: 160px;
-    width: 100%;
+    width: 90%;
    
 
     
