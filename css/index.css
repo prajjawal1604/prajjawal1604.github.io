@@ -106,9 +106,6 @@ left: 20px;
     
 }
 
-.card:hover{
-   
-}
 .card-deck{
     margin:50px 100px;
 }
@@ -371,3 +368,11 @@ input[type=submit]:hover {
     display: block;
     text-align: center;
   }
+  .card:hover {
+    transform: translateY(-10px) translateX(3px);
+  
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+.card{
+  transition: 0.4s ease;
+}
