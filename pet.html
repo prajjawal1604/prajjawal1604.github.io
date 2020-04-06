@@ -55,7 +55,7 @@
                 <a class="nav-link" href="#">  <i class="fa fa-mobile"></i>  Contact Us</a>
               </li>  
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">  <i class="fa fa-sign-in-alt"></i>  Login</a>
+              <a class="nav-link" href="#"  onclick="document.getElementById('id01').style.display='block'">  <i class="fa fa-sign-in-alt"></i>  Login</a>
             </li>
           </ul>
     
@@ -64,7 +64,66 @@
        </div>
 
 
+
        
+
+       <!-- ...................................................login popup............................................ -->
+
+<div id="id01" class="modal">
+  
+  <!-- <form class="modal-content animate"  method="post">
+       -->
+    
+
+      <div class="container modal-content animate ">
+
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+        <h2 style="text-align:center">Login </h2>
+    
+        <div class="row" style="padding: 70px 40px 30px;">
+<!--       
+      <div class="vl">
+        <span class="vl-innertext">or</span>
+      </div> -->
+
+      <div class="col left">
+        <a href="#" class="fb btn">
+          <i class="fab fa-facebook "></i> Login with Facebook
+         </a>
+        <a href="#" class="twitter btn">
+          <i class="fab fa-twitter "></i> Login with Twitter
+        </a>
+        <a href="#" class="google btn"><i class="fab fa-google ">
+          </i> Login with Google+
+        </a>
+      </div>
+
+      <div class="col right" style="top: -45px;">
+        <div class="hide-md-lg">
+          <p>Sign in manually:</p>
+        </div>
+
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="submit" value="Login" style="    border: solid 1px; background-color: green;">
+      </div>
+      
+    </div>
+    <div class="bottom-container">
+  <div class="row"  style="padding: 10px 65px;">
+    <div class="col">
+      <a href="#" style="color:black ; border: solid 1px;" class="btn">Sign up</a>
+    </div>
+    <div class="col">
+      <a href="#" style="color:black ; border: solid 1px;" class="btn">Forgot password?</a></div>
+    </div>
+  </div>
+    </div>
+
+    
+  <!-- </form> -->
+</div>
+
 
 <!-- ...................................................side navigation............................................ -->
 <div id="container">
