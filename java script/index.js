@@ -55,6 +55,15 @@ window.onclick = function(event) {
 
 
 
+var cat = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == cat) {
+        modal.style.display = "none";
+    }
+}
+
 
 
 

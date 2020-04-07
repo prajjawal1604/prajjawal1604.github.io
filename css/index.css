@@ -1,4 +1,4 @@
-#navbar{
+      navbar{
     margin-top: 10px;    
     position: fixed;
     width: 100%; 
@@ -203,7 +203,7 @@ span.psw {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
+  width: 100%; /* Full width */ 
   height:110%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
@@ -307,6 +307,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+  color: #fff;
 }
 
 /* Two-column layout */
@@ -327,31 +328,6 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* vertical line */
-.vl {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  border: 2px solid #ddd;
-  height: 175px;
-}
-
-/* text inside the vertical line */
-.vl-innertext {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  border-radius: 50%;
-  padding: 8px 10px;
-}
-
-/* hide some text on medium and large screens */
-.hide-md-lg {
-  display: none;
-}
-
 /* bottom container */
 .bottom-container {
   text-align: center;
@@ -364,11 +340,7 @@ input[type=submit]:hover {
   .vl {
     display: none;
   }
-  /* show the hidden text on small screens */
-  .hide-md-lg {
-    display: block;
-    text-align: center;
-  }
+  
   .card:hover {
     transform: translateY(-10px) translateX(3px);
   
@@ -376,4 +348,28 @@ input[type=submit]:hover {
 }
 .card{
   transition: 0.4s ease;
+}
+
+.cat{
+  
+  
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 0px;
+  opacity: 0.97;
+}
+.cat p{
+  color: #000;
+}
+#id02{
+
+  display: none;
+
 }
