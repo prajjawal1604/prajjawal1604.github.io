@@ -52,7 +52,7 @@
             <a class="nav-link" href="#">  <i class="fa fa-mobile"></i>  Contact Us</a>
           </li>  
         <li class="nav-item">
-          <a class="nav-link" href="#" onclick="document.getElementById('id01').style.display='block'">  <i class="fa fa-sign-in-alt"></i>  Login</a>
+          <a class="nav-link"  onclick="document.getElementById('id01').style.display='block'">  <i class="fa fa-sign-in-alt"></i>  Login</a>
         </li>
       </ul>
 
@@ -126,76 +126,71 @@
       <div class="container modal-content animate ">
 
         <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-        <h2 style="text-align:center">Login </h2>
+        <h2 style="text-align:center">Categories</h2>
     
         <div class="row" style="padding: 70px 40px 30px;">
 
 
-
-          
-        
             <div class="card-deck">
               <a class="card bg-primary" href="aata.html">
                 <div class="card-body text-center">
-                  <p class="card-text">Some text inside the first card</p>
-                </div>
-              </a>
-              <a class="card bg-warning" href="dryfruits.html">
-                <div class="card-body text-center">
-                  <p class="card-text">Some text inside the second card</p>
-                </div>
-              </a>
-              <a class="card bg-success" href="fruits.html">
-                <div class="card-body text-center">
-                  <p class="card-text">Some text inside the third card</p>
-                </div>
-              </a>
-                <a class="card bg-primary" href="grocery.html">
-                  <div class="card-body text-center">
-                    <p class="card-text">Some text inside the first card</p>
-                  </div>
-                </a>
-                <a class="card bg-warning" href="house.html">
-                  <div class="card-body text-center">
-                    <p class="card-text">Some text inside the second card</p>
-                  </div>
-                </a>
-                <a class="card bg-success" href="meat.html">
-                  <div class="card-body text-center">
-                    <p class="card-text">Some text inside the third card</p>
-                  </div>
-                </a>
-                </div>
-            
-                
-
-
-            <div class="card-deck">
-              <a class="card bg-primary" href="pet.html">
-                <div class="card-body text-center">
-                  <p class="card-text">Some text inside the first card</p>
+                  <p class="card-text">Aata & Other Flours</p>
                 </div>
               </a>
               <a class="card bg-warning" href="rice.html">
                 <div class="card-body text-center">
-                  <p class="card-text">Some text inside the second card</p>
+                  <p class="card-text">Rice & other Grains</p>
                 </div>
               </a>
               <a class="card bg-success" href="snacks.html">
                 <div class="card-body text-center">
-                  <p class="card-text">Some text inside the third card</p>
+                  <p class="card-text">Snacks & Beverages</p>
                 </div>
               </a>
-                <a class="card bg-primary" href="vegetables.html">
+                <a class="card bg-primary" href="grocery.html">
                   <div class="card-body text-center">
-                    <p class="card-text">Some text inside the first card</p>
+                    <p class="card-text">Grocery And Staple</p>
                   </div>
                 </a>
-                <a class="card bg-warning" href="index.html">
+                <a class="card bg-warning" href="pet.html">
                   <div class="card-body text-center">
-                    <p class="card-text">Some text inside the second card</p>
+                    <p class="card-text">Pet Food</p>
                   </div>
                 </a>
+
+            </div></div>
+
+
+
+                <div class="card-deck">
+                  <a class="card bg-primary" href="new.html">
+                    <div class="card-body text-center">
+                      <p class="card-text">New Arrivals</p>
+                    </div>
+                  </a>
+                  <a class="card bg-warning" href="fruits.html">
+                    <div class="card-body text-center">
+                      <p class="card-text">Fruits</p>
+                    </div>
+                  </a>
+                  <a class="card bg-success" href="vegetables.html">
+                    <div class="card-body text-center">
+                      <p class="card-text">vegetables</p>
+                    </div>
+                  </a>
+                    <a class="card bg-primary" href="house.html">
+                      <div class="card-body text-center">
+                        <p class="card-text">Household Items</p>
+                      </div>
+                    </a>
+                    <a class="card bg-warning" href="dryfruits.html">
+                      <div class="card-body text-center">
+                        <p class="card-text">Dryfruits</p>
+                      </div>
+                    </a>
+                   
+                </div>  
+               
                
             </div>
            </div>
@@ -230,14 +225,14 @@
   <a href="vegetables.html"> Vegitables</a>
   <a href="house.html"> Household Items</a>
   <a href="snacks.html"> Snacks & Beverages</a>
-  <a href="categories.html"> More</a>
+  <a onclick="document.getElementById('id02').style.display='block'"> More</a>
   
 </div>
 
 
 <!-- ...................................................flex............................................ -->
 
-<div class="main">
+<div class="main">  
 <div class="flex ">
   <img src="background\img1.png" alt="flex">
 </div>
@@ -250,7 +245,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -258,7 +253,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -266,7 +261,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -274,7 +269,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>
@@ -286,7 +281,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -294,7 +289,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -302,7 +297,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -310,7 +305,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>
@@ -320,7 +315,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -328,7 +323,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -336,7 +331,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -344,7 +339,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>
@@ -354,7 +349,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -362,7 +357,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -370,7 +365,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -378,7 +373,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>
@@ -388,7 +383,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -396,7 +391,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -404,7 +399,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button> </small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button> </small></p>
           </div>
         </div>
         <div class="card">
@@ -412,7 +407,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>
@@ -422,7 +417,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -430,7 +425,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -438,7 +433,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
         <div class="card">
@@ -446,7 +441,7 @@
           <div class="card-body">
             <h5 class="card-title">cost</h5>
             <p class="card-text">name .</p>
-            <p class="card-text"><small class="text-muted">amount <button class="btn success">Add to Cart</button></small></p>
+            <p class="card-text"><small class="text-muted">amount <button class="btn success" onclick="document.getElementById('id01').style.display='block'">Add to Cart</button></small></p>
           </div>
         </div>
       </div>

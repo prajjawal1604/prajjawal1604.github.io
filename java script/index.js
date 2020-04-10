@@ -24,45 +24,10 @@ $(window).scroll(function(){
 
 /* .................................side navigation bar....................*/
 
-
-// $(window).scroll(function(){
-//  if($(window).scrollTop()>814){
-//    $("#sidebar").css("display",none);
-//    console("hi");
-//   //$(".sidebar").css("top", 1000);
-//   // alert("stop"); 
-//  }
-// });
-
-
 $(window).scroll(function(){
   $(".sidebar").css("opacity", $(window).scrollTop() / 900);
 });
 
-
-/* ....................................................login popup............................................*/
-
-
-var modal = document.getElementById('id01');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
-
-
-
-var cat = document.getElementById('id02');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == cat) {
-        modal.style.display = "none";
-    }
-}
 
 
 
